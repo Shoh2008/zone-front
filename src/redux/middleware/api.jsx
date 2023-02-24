@@ -10,7 +10,7 @@ const api =
     }
     const { url, method, data, onSuccess, onFail, id } = action.payload;
     axios({
-      baseURL: "https://zone-api-production.up.railway.app",
+      baseURL: "https://zone-api.onrender.com",
       url,
       method,
       data,
